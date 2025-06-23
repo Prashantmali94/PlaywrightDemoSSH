@@ -1,0 +1,18 @@
+
+[ {     "id": 1,
+        "email":"vicky01mahajan@gmail1.com",
+        "password":"Test@123"
+    },
+
+    {   "id": 2,
+        "email":"vicky01mahajan@gmail2.com",
+        "password":"Test@123"
+    },
+
+    {
+        "id": 3,
+        "email":"vicky01mahajan@gmail3.com",
+        "password":"Test@123"
+    }
+
+]
