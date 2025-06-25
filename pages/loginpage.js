@@ -1,5 +1,6 @@
 const{expect}=require("@playwright/test");
 
+
 class LoginPage
 {
 
@@ -18,11 +19,11 @@ class LoginPage
         await expect(this.page.locator(this.header)).toBeVisible();
     }
 
-    async loginToapplication()
+    async loginToapplication(eamil, password)
     {
-        await this.page.fill(this.username,"admin@email.com")
+        await this.page.fill(this.username,eamil)
 
-        await this.page.fill(this.password,"admin@123")
+        await this.page.fill(this.password,password)
 
         await this.page.click(this.loginButton)
 
