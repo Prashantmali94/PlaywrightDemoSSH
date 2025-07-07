@@ -1,7 +1,9 @@
 
 [ {     "id": 1,
         "email":"admin@email.com",
-        "password":"admin@123"
+        "password":"admin@123",
+        "name":"New Test",
+        "message":"This is a test message for ajax form submission."
     }
 
 ]
